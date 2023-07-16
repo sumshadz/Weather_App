@@ -37,7 +37,7 @@ function App() {
   settmStr(timeStr);
       setTempInfo(myNewWeatherInfo);
     } catch (error) {
-      console.log(error);
+      console.log("hi");
     }
   };
   React.useEffect(() => {
